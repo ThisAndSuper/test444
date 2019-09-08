@@ -1,11 +1,7 @@
 <template>
   <div>
     <Header>
-      <template v-slot:span>
-        <span class="goback" @click="goback">
-          <van-icon class="van-icon-arrow-left"></van-icon>返回
-        </span>
-      </template>
+      
     </Header>
     <div v-for="item in newsList" :key="item.id" class="news_box">
       <div class="news_title">{{item.title}}</div>
