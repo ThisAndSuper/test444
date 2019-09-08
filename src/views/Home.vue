@@ -3,14 +3,7 @@
     <!-- 头部区域 -->
     <div class="header">黑马程序员.vant</div>
 
-    <!-- 内容区域 -->
-    <!-- 轮播图区域 -->
-    <van-swipe :autoplay="1000">
-      <van-swipe-item v-for="(image, index) in list" :key="index">
-        <img :v-lazy="image.img" :src="image.img" />
-      </van-swipe-item>
-    </van-swipe>
-
+  
     <!-- 宫格区域 -->
     <van-grid :column-num="3">
       <van-grid-item text="新闻资讯" to="/newslist" center>
