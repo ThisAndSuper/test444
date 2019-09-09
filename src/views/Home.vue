@@ -8,15 +8,14 @@
       <van-grid-item text="新闻资讯" to="/newslist" center>
         <img src="../assets/img/menu1.png" />
         <p>新闻资讯</p>
+
+
+        fdasdfasdfasdfasdf
       </van-grid-item>
       <van-grid-item text="图片分享" to="/photo/list">
         <img src="../assets/img/menu2.png" />
         <p>图片分享</p>
-      </van-grid-item>
-      <van-grid-item text="商品购买" to="/goods/list">
-        <img src="../assets/img/menu3.png" />
-        <p>商品购买</p>
-      </van-grid-item>
+    
       <van-grid-item text="留言反馈">
         <img src="../assets/img/menu4.png" />
         <p>留言反馈</p>
